@@ -1,8 +1,8 @@
-# Teste para Desenvolvedor(a) Back-End PHP/Laravel
+# Teste para Desenvolvedor(a) Back-End PHP
 
 ## Introdução
 
-Bem-vindo(a) ao processo seletivo para a posição de **Desenvolvedor(a) Back-End** em nossa equipe! Este teste tem como objetivo avaliar suas habilidades técnicas em PHP, Laravel e outras tecnologias mencionadas na descrição da vaga.
+Bem-vindo(a) ao processo seletivo para a posição de **Desenvolvedor(a) Back-End** em nossa equipe! Este teste tem como objetivo avaliar suas habilidades técnicas em PHP 8+, Slim Framework, e outras tecnologias mencionadas na descrição da vaga.
 
 ## Instruções
 
@@ -28,7 +28,7 @@ Você foi designado para desenvolver uma API RESTful para um sistema de gerencia
    - Configure um ambiente de desenvolvimento utilizando **Docker** e **Docker-compose**, incluindo:
      - Servidor web (Nginx ou Apache).
      - PHP na versão 7.4 ou superior.
-     - Banco de dados MySQL.
+     - Banco de dados MongoDB e/ou SQL Server (você pode escolher qual utilizar).
      - Redis.
    - Certifique-se de que a aplicação possa ser iniciada com um único comando (`docker-compose up`).
 
@@ -61,13 +61,10 @@ Você foi designado para desenvolver uma API RESTful para um sistema de gerencia
      - Erros no servidor.
      - Acesso não autorizado a recursos.
 
-7. **Testes**
-
-   - Escreva testes unitários e/ou de integração para as principais funcionalidades da aplicação utilizando **PHPUnit**.
-
-8. **Documentação da API**
+7. **Documentação da API**
 
    - Forneça uma documentação da API utilizando **Swagger/OpenAPI** ou uma coleção do **Postman**.
+   - A documentação deve estar acessível através de uma rota, por exemplo, `/docs`.
 
 ### Diferenciais (Desejável)
 
